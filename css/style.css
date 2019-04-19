@@ -1,0 +1,34 @@
+#picture_id {
+    width: 200px;
+    height: 200px;
+    margin:0px;
+    padding: 0px;
+    border-radius: 80px;
+    display: inline;
+}
+
+#picture_id:hover {
+   width: 220px;
+   height: 220px;
+}
+
+body {
+    background-color:lightblue;
+}
+
+#overall_container {
+    width: 900px;
+    height: 80vh;
+    padding-left: 200px;
+    
+}
+
+#cv_container{
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+#info {
+    padding-left: 50px;
+    display: inline;
+}

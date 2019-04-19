@@ -107,5 +107,21 @@ INTERESTS:<br>
 
     </body>
 
+    <script> 
+
+        let blink = ()=>{
+            let message = document.getElementById('info');
+            if ( message.style.visibility === 'hidden'){
+                message.style.visibility = 'visible'
+            }else{
+                message.style.visibility = 'hidden'
+            }
+        }
+
+        window.setInterval(blink,500);
+
+
+    </script>
+
 
 </html>

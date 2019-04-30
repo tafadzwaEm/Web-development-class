@@ -1,77 +1,133 @@
-<!DOCTYPE html> 
-<html lang="en">
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>tafadzwaEm-cv</title>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/materialize.min.css">
+            <link rel="stylesheet" href="css/stylee.css">
+            <link rel="stylesheet" href="css/icons.css">
+            <link rel="stylesheet" href="css/styl.css">
+            <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>tafadzwaEm CV</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/icons.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stylee.css">
-    <link rel="stylesheet" href="css/styl.css">
-</head>
-
-<body>
+    <body>
+            <div class="color-changer"></div>
     
-    <div class="color-changer"></div>
-    
-    <header>
 
-            <div id="top-nav-bar-div" class="z-depth-1">
+        <div id='overall_container'>
+            <div id='cv_container'>
+        <a href="https://github.com/tafadzwaEm/Web-development-class">
+            <img id='picture_id' src="img/manue.png">
+        </a> 
+
+        <p id='info'>
+            click picture to view my github repository
+        </p>
+
+        <h1>Fullname: <small><em>Emmanuel Tafadzwa Mukombero</em></small></h1>
         
-                <ul class="nav-list" style="display: inline-block;">
-                   
-                    <li> <a href="">tafadzwaEm info</a>
-                        <ul>
-                            <a href="index.html">
-                                <li>Curriculum Vitae</li>
-                            </a>
-                            <a href="">
-                                <li>Interests</li>
-                            </a>
-                            <a href="">
-                                <li>Other</li>
-                            </a>
-                        </ul>
-                    </li>
-                    <li> <a href="" id="dev">Recomendations</a>
-                        <ul>
-                            <a href="">
-                                <li>Books</li>
-                            </a>
-                            <a href="">
-                                <li>coding sites</li>
-                            </a>
-                            
-                        </ul>
-                    </li>
-                    <li> <a href="index.html" id="abt">myCV</a></li>
-                </ul>
+        <hr>
+
+    <div>
+        <h2>Home Address</h2>
+        24 Greenwood road<br>
+        Muzari<br>
+        Chinhoyi<br>
+    </div><br>
+    <br>
+
+    <div>
+        Phone :  0773870043<br>
+        Email :  emmanuelmukombero10@gmail.com
+    </div><br>
+
+    <div>
+        <h2>Education</h2>
+        <p>
+            Currently studying (Bachelor of Science Honors degree in Computer Science )at the Harare Institute of Technology. <br><br>
+            <strong>Courses Learnt:</strong>
+            <ol>
+                <li>Data Structures</li>   
+                <li>Operating Systems</li>
+                <li>Fundamental Mathematics in Computer Science</li>
+                <li>Analogue Electronics</li>
+                <li>Object Oriented Programming</li> 
+                <li>C programming</li>
+                <li>etc...</li>
+            </ol>
+
+            <br>
+            <strong>2011- 2014	<br>			
+            ZRP High school:</strong>		‘O’ LEVEL passed 10 subjects including Maths and English<br>
+
+            <strong>2015-2016<br>
+            Mutoko High school:</strong>			‘A’ LEVEL  13 points
+                                Mathematics: B
+                                Business Studies: B
+                                Computing: A
+
+        </p>
+
+    </div><br>
+
+
+    <div>
+        <h2>Personal skills and Competences</h2>
+
+        <p>
+            MOTHER TONGUE:			Shona<br>
+
+OTHER LANGUAGES:			English and Ndebele<br><br>
+
+PROGRAMMING SKILLS:<br>	
+    <ul>		
+        <li>Basic C programming</li>
+        <li>Basic python development</li>
+        <li>Visual Basic .NET</li>
+        <li>Java</li>
+    </ul>
+
+BASIC FIRST AID SKILLS:<br><br>
         
-               
+ I was part of the Harare Institute of Technology students who managed to receive basic first aid training from EMRAS <br><br>
+	.
+COUNSELLING SKILLS:<br><br>
+	
+I was also part of the 	Harare Institute of Technology students who managed to receive counselling training from CONNECT.<br><br>	.
+	
+INTERESTS:<br>
+    <ul>		
+        <li>Singing</li>
+        <li>Drama</li>
+        <li>Sporting activities</li>
+    </ul>
         
-            </div>
+        </p>
+
+    </div>
+
+
+</div>
+</div>
         
-        </header>
 
-        <section>
-            <div id="section-wrapper">
-                <img src="img/manue.png"id="pic"> <br>
-                <br><hr><br>
+    </body>
 
-                <p> Emmanuel Tafadzwa Mukombero is a computer science student at the Harare Institute of Technology.</p>
+    <script> 
 
-                         ~ <em>tafadzwaEm</em> ~
-            </div>
+        let blink = ()=>{
+            let message = document.getElementById('info');
+            if ( message.style.visibility === 'hidden'){
+                message.style.visibility = 'visible'
+            }else{
+                message.style.visibility = 'hidden'
+            }
+        }
 
-            
-          
-        </section>
+        window.setInterval(blink,500);
 
-</body>
-<script src="js/script.js"></script>
+
+    </script>
+
 
 </html>

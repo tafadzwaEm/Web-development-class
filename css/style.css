@@ -1,48 +1,41 @@
-#picture_id {
+
+#welcome {
+    width: 550px;
+    height: 150px;
+    text-align: center;
+    margin-left: 550px;
+    color: black;
+    font-size: 25px;
+    opacity: .3;
+    display: inline-block;
+}
+
+#side-nav {
     width: 200px;
-    height: 200px;
-    margin:0px;
-    padding: 0px;
-    border-radius: 80px;
-    display: inline;
+    height: 325px;
+    float: left;
 }
 
-#picture_id:hover {
-   width: 220px;
-   height: 220px;
-}
-
-html {
-    background:linear-gradient(to left,yellow,green,yellow);
-    background-size: 400% 400%;
-    animation: gradient 40s ease infinite;
-}
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-#overall_container {
-    width: 900px;
-    height: 80vh;
-    padding-left: 200px;
-    
-}
-
-#cv_container{
-    border: 1px solid gray;
-    padding: 15px;
-}
-
-#info {
-    padding-left: 50px;
-    display: inline;
+#side-nav-list {
+    margin-top: 25px;
+    list-style: none;
     font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#side-nav-list li {
+    /* border-bottom: 1px solid black; */
+    text-align: center;
+    padding: 10px 5px;
+}
+
+#side-nav-list li:hover {
+    border-bottom: 1px solid rgb(250, 107, 107);
+    color: rgb(250, 107, 107);
+}
+
+#side-nav-list a:hover {
+    text-decoration: none;
+    color: rgb(250, 107, 107);
 }

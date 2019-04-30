@@ -1,0 +1,56 @@
+.color-changer {
+    background: linear-gradient(to left, white, red, white, black, white);
+    width: 100%;
+    height: 5px;
+    background-size: 300px;
+    animation: animate 40s ease infinite;
+    margin-top: 5px;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+.section {
+    width: 100%;
+}
+
+.section #section-info {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 25px;
+    border-left: 1px solid rgba(250, 107, 107, 0.3);
+    border-right: 1px solid rgba(250, 107, 107, 0.3);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#card {
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+#card-wrapper {
+    text-align: center;
+}
+
+#silverblack-gradient {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(-45deg, white 5%, black, white);
+    color: white;
+    text-align: center;
+}
+
+#silverblack-gradient h1 {
+    padding-top: 55px;
+}

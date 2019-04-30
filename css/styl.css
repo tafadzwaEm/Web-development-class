@@ -1,0 +1,115 @@
+#picture_id {
+    width: 200px;
+    height: 200px;
+    margin:0px;
+    padding: 0px;
+    border-radius: 80px;
+    display: inline;
+}
+
+#picture_id:hover {
+   width: 220px;
+   height: 220px;
+}
+
+
+#overall_container {
+    width: 900px;
+    height: 80vh;
+    padding-left: 300px;
+    margin-top: 20px;
+    
+}
+
+#cv_container{
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+#info {
+    padding-left: 50px;
+    display: inline;
+    font-size: 20px;
+}
+
+.nav-list li {
+    float: left;
+}
+
+.nav-list li ul a li {
+    float: none;
+    display: none;
+    text-align: center;
+    padding: -8px!important;
+    margin: -8px !important;
+}
+
+.nav-list li ul a {
+    padding: 1px!important;
+    margin: 1px !important;
+}
+
+.nav-list li:hover ul li {
+    float: none;
+    display: block;
+    border-bottom: 1px dashed rgb(250, 107, 107);
+}
+
+#top-nav-bar-div span i {
+    font-size: 30px;
+}
+
+#top-nav-bar-div i {
+    font-size: 30px;
+}
+
+#top-nav-bar-div .right {
+    color: white;
+}
+
+#top-nav-bar-div {
+    margin-top: 10px;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(250, 107, 107);
+    border: 1px solid rgba(250, 107, 107, 0.3);
+    background: linear-gradient(to right, white, red)
+}
+
+#top-nav-bar-div a {
+    color: rgb(221, 49, 49);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#brand {
+    margin-left: 0px !important;
+}
+
+#top-nav-bar-div a:hover {
+    color: rgb(32, 31, 31);
+    text-decoration: none;
+}
+
+#section-wrapper{
+    width: 450px;
+    height: 450px;
+    margin-left: 390px;
+    margin-top: 40px;
+    text-align: center;
+    background: linear-gradient(to bottom,white,rgb(250, 107, 107));
+    border-radius: 10px;
+
+}
+#pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    font-weight: bold;
+    font-size: 18px;
+}
